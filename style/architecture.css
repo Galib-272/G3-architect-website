@@ -215,7 +215,6 @@ h4 {
   box-sizing: border-box;
   background-color: #fff4e7;
   border-radius: 8px;
-  text-align: center;
   margin: 130px auto;
   display: flex;
   align-items: center;
@@ -246,6 +245,17 @@ footer {
   .our-features {
     margin-left: 20px;
   }
+  .features {
+    gap: 50px;
+  }
+  #quick-list-text,
+  .sponsor-section,
+  .footer-texts {
+    margin-top: 50px;
+  }
+  .footer-texts{
+    margin-bottom: 50px;
+  }
   .facts-container,
   .sponsor-companies {
     justify-items: center;
@@ -254,6 +264,23 @@ footer {
   #experience-badge {
     margin-top: 20px;
     margin-left: 20px;
+  }
+  .featured-architect {
+    width: 100%;
+  }
+  #experience-badge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    line-height: 30px;
+  }
+  .some-facts {
+    margin-top: 50px;
+  }
+  .footer-texts {
+    padding: 20px;
+    font-size: 0.9rem;
   }
 }
 /* medium size screen */
