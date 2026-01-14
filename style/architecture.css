@@ -209,15 +209,21 @@ h4 {
 }
 /* footer styles */
 .footer-texts {
-  width: 100%;
   max-width: 1440px;
   height: 100px;
-  padding: 38px 410px;
+  padding: 38px 100px;
   box-sizing: border-box;
   background-color: #fff4e7;
   border-radius: 8px;
   text-align: center;
   margin: 130px auto;
+  display: flex;
+  align-items: center;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* responsive media query */
